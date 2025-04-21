@@ -1,12 +1,22 @@
-# D603 Task 2 - K-Means Clustering
+# Customer Segmentation Using K-Means Clustering
 
-This folder contains all files for Task 2 of D603 (Machine Learning).
+This project applies unsupervised learning techniques to segment customers into distinct behavioral groups. Using standardized continuous features such as tenure, monthly charges, and support usage, the goal is to uncover natural customer personas that could inform targeted retention strategies.
 
-- `d603_task2_final_polished.ipynb`: Final notebook with code, explanations, and visuals
-- `churn_cleaned.csv`: The original cleaned dataset (from Task 1)
-- `churn_clustering_ready.csv`: The scaled version of the dataset used for clustering
-- `churn_clustered.csv`: Final dataset including cluster assignments
+## Project Overview
+- Data: Cleaned churn dataset with demographic and usage metrics
+- Goal: Identify customer segments based on behavioral patterns
+- Method: K-Means Clustering (with Elbow method + silhouette scoring to determine optimal k)
 
-[Watch the Panopto video walkthrough here](https://wgu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0c402864-6a9e-4711-975a-b2c1016112fd)
+## Technologies Used
+- Python (pandas, numpy, scikit-learn)
+- Jupyter Notebook
+- Matplotlib & Seaborn (visualization)
 
-All analysis was completed using only continuous, numerical variables as required for k-means clustering. Let me know if anything is unclear — thank you!
+## Highlights
+- Performed feature standardization to ensure balanced clustering
+- Validated clusters using silhouette scores
+- Developed detailed customer personas from cluster centroids
+- Visualized distributions using bar plots and pair plots
+
+## Outcome
+The final analysis produced clear, actionable customer segments that could be used in targeted outreach, advertising, or retention initiatives. This project simulates real-world segmentation used in subscription-based businesses.
