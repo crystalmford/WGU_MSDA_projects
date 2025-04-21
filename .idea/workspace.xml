@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1221816e-ccd3-4195-aab7-8e0d2c7249ac" name="Changes" comment="Updated README and folder structure for D211 project">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/d602-deployment-task-3" beforeDir="false" afterPath="$PROJECT_DIR$/d602-deployment-task-3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/d602-deployment-task-3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/d602-deployment-task-3/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/d602-deployment-task-3/API_Python_1.0.0.ipynb" beforeDir="false" />
@@ -98,7 +97,7 @@
       <workItem from="1743949779119" duration="241000" />
       <workItem from="1745254400213" duration="335000" />
       <workItem from="1745261506052" duration="712000" />
-      <workItem from="1745262299474" duration="940000" />
+      <workItem from="1745262299474" duration="1385000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored D208 Task 1 into Customer Tenure Analysis project">
       <option name="closed" value="true" />
