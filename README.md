@@ -1,9 +1,26 @@
-<strong> **DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
+# Customer Churn Prediction Model
 
-# WESTERN GOVERNORS UNIVERSITY
+This project explores customer churn using supervised machine learning classification. The objective is to predict which customers are likely to leave based on service usage, demographics, and account details.
 
-## D603 MACHINE LEARNING
+## Problem Statement
+Can we predict whether a customer will churn based on their service usage and demographic features? Identifying at-risk customers enables businesses to take proactive steps to improve retention.
 
-Welcome to D603 Machine Learning!
+## Technologies Used
+- Python (pandas, numpy)
+- Scikit-learn (RandomForestClassifier, train_test_split, GridSearchCV, evaluation metrics)
+- Matplotlib & Seaborn (visualization)
+- Jupyter Notebook
 
-For specific task instructions and requirements for this assessment, please refer to the course page.
+## Data Preparation
+- Removed irrelevant features (IDs, location data)
+- Converted Yes/No columns to binary
+- One-hot encoded all categorical variables (contract type, service level, job titles)
+- Final dataset included over 700 features due to expanded one-hot encoding
+
+## Modeling Approach
+- Applied Random Forest Classifier to handle high-dimensional feature space
+- Used GridSearchCV for hyperparameter tuning
+- Evaluated using accuracy, precision, recall, F1 score, and AUC-ROC
+
+## Outcome
+The final model successfully identified churn patterns with strong performance on validation data. The project demonstrates advanced feature engineering, model optimization, and practical business application in customer
