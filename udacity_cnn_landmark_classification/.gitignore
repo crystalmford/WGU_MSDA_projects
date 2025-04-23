@@ -1,0 +1,6 @@
+# Ignore dataset and cache
+landmark_images/
+exporttoHTML/
+mean_and_std.pt
+__pycache__/
+*.pt
