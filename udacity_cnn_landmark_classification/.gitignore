@@ -1,6 +1,43 @@
-# Ignore dataset and cache
-landmark_images/
-exporttoHTML/
-mean_and_std.pt
+# === Python cache files ===
 __pycache__/
+*.py[cod]
+*.so
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === Virtual environments ===
+env/
+venv/
+.env/
+.venv/
+
+# === PyTorch model files ===
 *.pt
+*.pth
+checkpoints/
+
+# === Data files / image folders (optional) ===
+landmark_images/
+static_images/
+exporttoHTML/
+*.zip
+*.tar.gz
+
+# === Logs and runtime files ===
+*.log
+*.tmp
+
+# === IDE/Editor-specific files ===
+.vscode/
+.idea/
+*.iml
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Saved statistics or intermediate files ===
+mean_and_std.pt
+*.npy
+*.npz

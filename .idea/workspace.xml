@@ -5,38 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1221816e-ccd3-4195-aab7-8e0d2c7249ac" name="Changes" comment="Updated README and folder structure for D211 project">
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/app.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/checkpoints/best_val_loss.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/checkpoints/original_exported.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/checkpoints/test_optimize.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/cnn_from_scratch.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/create_submit_pkg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/optimization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/test_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/transfer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/static_images/icons/noun-advance-2109145.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/static_images/icons/noun-answer-3361020.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/static_images/icons/noun-info-2558213.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/static_images/icons/noun-question-mark-869751.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/static_images/sample_landmark_output.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/static_images/test/09.Golden_Gate_Bridge/190f3bae17c32c37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/static_images/test/16.Eiffel_Tower/3828627c8730f160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/static_images/test/24.Soreq_Cave/18dbbad48a83a742.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/static_images/test/37.Atomium/5ecb74282baee5aa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/static_images/test/41.Machu_Picchu/4336abf3179202f2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/static_images/train/00.Haleakala_National_Park/084c2aa50d0a9249.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/transfer_learning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/cford_projects/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/monthly_charge_cleaning.R" beforeDir="false" afterPath="$PROJECT_DIR$/cford_projects/monthly_charge_cleaning.R" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/transfer_learning_landmark_classifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/app.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/app_landmark_classifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/cnn_from_scratch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/cnn_from_scratch_landmark_classifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/transfer.py" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/transfer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/transfer_learning.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +48,12 @@
     &quot;assignee&quot;: &quot;crystalmford&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/crystalmford/WGU_MSDA_projects&quot;,
-    &quot;accountId&quot;: &quot;c6a023d0-8606-42df-a724-4bffc19bf5af&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/crystalmford/WGU_MSDA_projects.git",
+    "accountId": "c6a023d0-8606-42df-a724-4bffc19bf5af"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -90,7 +67,7 @@
     "Python.test_model.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "monthly-charge-data-cleaning",
+    "git-widget-placeholder": "cnn-project",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Crystal/PycharmProjects/WGU_MSDA_projects/udacity",
     "node.js.detected.package.eslint": "true",
@@ -126,6 +103,9 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Crystal\PycharmProjects\WGU_MSDA_projects\udacity" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -173,7 +153,8 @@
       <workItem from="1745262299474" duration="5224000" />
       <workItem from="1745333237797" duration="5285000" />
       <workItem from="1745344791518" duration="55112000" />
-      <workItem from="1745414401335" duration="7190000" />
+      <workItem from="1745414401335" duration="14853000" />
+      <workItem from="1746113477978" duration="3043000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored D208 Task 1 into Customer Tenure Analysis project">
       <option name="closed" value="true" />
@@ -380,6 +361,11 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/udacity_cnn_landmark_classification/src/optimization.py</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/udacity_cnn_landmark_classification/cnn_from_scratch_landmark_classifier.ipynb</url>
+          <line>125</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
