@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1221816e-ccd3-4195-aab7-8e0d2c7249ac" name="Changes" comment="Updated README and folder structure for D211 project">
-      <change afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/transfer_learning_landmark_classifier.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/app.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/app_landmark_classifier.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/cnn_from_scratch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/cnn_from_scratch_landmark_classifier.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/transfer.py" beforeDir="false" afterPath="$PROJECT_DIR$/udacity_cnn_landmark_classification/src/transfer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udacity_cnn_landmark_classification/transfer_learning.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +40,12 @@
     &quot;assignee&quot;: &quot;crystalmford&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/crystalmford/WGU_MSDA_projects.git",
-    "accountId": "c6a023d0-8606-42df-a724-4bffc19bf5af"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/crystalmford/WGU_MSDA_projects.git&quot;,
+    &quot;accountId&quot;: &quot;c6a023d0-8606-42df-a724-4bffc19bf5af&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -62,23 +54,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.test_model.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "cnn-project",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Crystal/PycharmProjects/WGU_MSDA_projects/udacity",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "PyConsoleConfigurable.Python Console",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.test_model.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cnn-project&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Crystal/PycharmProjects/WGU_MSDA_projects/udacity&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python Console&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="WGU_MSDA_projects" is-module-sdk="true" working-directory="$PROJECT_DIR$/udacity">
