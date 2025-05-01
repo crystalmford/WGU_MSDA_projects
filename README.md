@@ -18,26 +18,45 @@ The goal is to predict which landmark is depicted in a given photograph. The pro
 
 ## Key Results
 
-| Model                     | Final Test Accuracy |
-|---------------------------|---------------------|
-| CNN from Scratch          | ~35%                |
-| Transfer Learning (ResNet18) | 76.4%               |
+| Model                        | Final Test Accuracy |
+|------------------------------|---------------------|
+| CNN from Scratch             | 51.1%                |
+| Transfer Learning (ResNet18) | 69.8%               |
 
 The best-performing model was exported using TorchScript and saved to:
-`checkpoints/transfer_exported.pt`
+`checkpoints/transfer_exported.pt` (this file is not tracked in Git due to size limits).
 
 ---
 
 ## Setup & Requirements
 
-Install dependencies:
+Install dependencies using:
 
-    pip install -r requirements.txt
+```
+pip install -r requirements.txt
+```
 
 To run the notebooks:
 
 - Use Jupyter Notebook or Jupyter Lab
-- Make sure PyTorch, torchvision, and ipywidgets are installed
+- Ensure PyTorch, torchvision, and ipywidgets are installed
+
+---
+
+## Running the Inference App
+
+The notebook `app_landmark_classifier.ipynb` allows you to upload an image and view the top 5 predicted landmarks using your trained model.
+
+**Note:** The model export file `checkpoints/transfer_exported.pt` is not included in the repository due to GitHub’s 100MB file size limit and is ignored via `.gitignore`.
+
+To run the app:
+
+1. Open and run all cells in `transfer_learning_landmark_classifier.ipynb`
+2. In particular, run the **"Export using TorchScript"** section to generate `checkpoints/transfer_exported.pt`
+3. Then open `app_landmark_classifier.ipynb` and run the interface
+4. Upload a landmark image and click **Classify** to view predictions
+
+This lets you test the model locally without storing large binaries in the repo.
 
 ---
 
@@ -58,19 +77,19 @@ The dataset is a subset of the Google Landmarks Dataset v2. It is not included i
 
 ## Project Structure
 
-    udacity_cnn_landmark_classification/
-    ├── cnn_from_scratch_landmark_classifier.ipynb
-    ├── transfer_learning_landmark_classifier.ipynb
-    ├── app_landmark_classifier.ipynb
-    ├── requirements.txt
-    ├── README.md
-    ├── checkpoints/          # .gitignored
-    ├── static_images/        # .gitignored
-    ├── landmark_images/      # .gitignored
-    └── src/                  # source code modules
+```
+udacity_cnn_landmark_classification/
+├── cnn_from_scratch_landmark_classifier.ipynb
+├── transfer_learning_landmark_classifier.ipynb
+├── app_landmark_classifier.ipynb
+├── requirements.txt
+├── README.md
+├── checkpoints/          # .gitignored
+├── static_images/        # .gitignored
+├── landmark_images/      # .gitignored
+└── src/                  # source code modules
+```
 
 ---
 
 Built with PyTorch and Jupyter.
-
-
