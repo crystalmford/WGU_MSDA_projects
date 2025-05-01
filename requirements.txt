@@ -1,6 +1,7 @@
-Pillow
-ipywidgets
-livelossplot
-numpy
 torch
 torchvision
+numpy
+pillow
+ipywidgets
+voila
+
