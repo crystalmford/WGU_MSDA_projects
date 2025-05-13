@@ -1,33 +1,69 @@
-# Data Science Portfolio – Crystal Ford
+# Image Captioning with CNN-RNN
 
-This repository showcases select projects from my Master of Science in Data Analytics (MSDA) at Western Governors University, with a specialization in Data Science. Each project is version-controlled in its own Git branch for clarity and reproducibility.
+This project demonstrates how to generate natural language captions for images using a Convolutional Neural Network (CNN) encoder and Recurrent Neural Network (RNN) decoder. The model was trained on the Microsoft COCO 2014 dataset using PyTorch.
 
----
-
-## About Me
-
-I'm a mission-driven data scientist in training with a background in education and nonprofit leadership. I’m passionate about using data to drive meaningful impact, especially in support of underserved communities. My focus areas include machine learning, predictive analytics, and real-world data storytelling.
+> Originally completed as part of Udacity's Computer Vision Nanodegree.
 
 ---
 
-## Projects
+## Project Overview
 
-| **Data Science Projects** | **Description** |
-|---------------------------|-----------------|
-| [Landmark Classification](https://github.com/crystalmford/WGU_MSDA_projects/tree/cnn-project) | Image classification using CNNs and transfer learning (ResNet18) to identify 50 landmark locations. |
-| [Customer Churn ML Model](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-churn-ml-model) | Built a Random Forest model to predict customer churn, with full pipeline from preprocessing to evaluation. |
-| [Flight Delay Prediction API](https://github.com/crystalmford/WGU_MSDA_projects/tree/flight-delay-prediction-api) | Trained and deployed a regression model using FastAPI to predict airline arrival delays. |
-| [Model Experiment Tracking](https://github.com/crystalmford/WGU_MSDA_projects/tree/model-experiment-tracking) | Tracked ML experiment results using MLflow to optimize model performance and reproducibility. |
-| [Customer Segmentation (K-Means)](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-segmentation-kmeans) | Performed clustering on customer behavior data to reveal distinct audience segments. |
-| [Customer Revenue Forecasting](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-revenue-forecasting) | Used ARIMA and time series analysis to forecast monthly revenue. |
-| [Predictive Modeling Projects](https://github.com/crystalmford/WGU_MSDA_projects/tree/predictive-modeling-projects) | A collection of smaller predictive models built for various business scenarios. |
+- **Encoder**: Pretrained ResNet-18 to extract image features
+- **Decoder**: LSTM network that generates captions from image embeddings
+- **Training**: COCO 2014 dataset (subset of 2,000 images used in project)
+- **Evaluation**: Greedy decoding vs. beam search (beam width = 5)
 
-| **Data Analysis Projects** | **Description** |
-|----------------------------|-----------------|
-| [Monthly Charge Data Cleaning](https://github.com/crystalmford/WGU_MSDA_projects/tree/monthly-charge-data-cleaning) | Cleaned and explored billing data for use in churn and segmentation models. |
-| [Monthly Charge vs Churn](https://github.com/crystalmford/WGU_MSDA_projects/tree/monthly-charge-vs-churn) | Statistical analysis of pricing’s impact on customer churn. |
-| [Customer Tenure SQL Dashboard](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-tenure-sql-dashboard) | Wrote complex SQL queries to analyze tenure patterns and visualize them with Power BI. |
-| [Customer Churn Dashboard](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-churn-dashboard) | Built an interactive Tableau dashboard to communicate churn trends and KPIs. |
+---
+
+## Example Outputs
+
+| Input Image | Predicted Caption |
+|-------------|-------------------|
+| ![White Boat](images/white_boat.png) | *“a boat is on the water with trees in the background”* |
+| ![Giraffe](images/giraffe.png) | *“a giraffe standing under a roof”* (incorrect) |
+
+---
+
+## Key Learnings
+
+- CNN-RNN pipeline for sequence generation
+- Feature extraction from pre-trained networks
+- Caption generation using beam search
+- Challenges in caption diversity and overfitting
+
+---
+
+## Files
+
+| File | Description |
+|------|-------------|
+| `image_captioning_cnn_rnn.ipynb` | Final notebook (training, inference, analysis) |
+| `model.py` | EncoderCNN and DecoderRNN classes |
+| `data_loader.py` | COCO dataset loader and preprocessing |
+| `images/` | Screenshots and sample outputs |
+| `README.md` | Project overview and instructions |
+
+---
+
+## Getting Started
+
+To run this notebook locally:
+
+1. Clone the repo
+2. Install dependencies (e.g., `torch`, `torchvision`, `matplotlib`, `nltk`)
+3. Run the notebook using Jupyter or Colab
+
+> Note: COCO dataset and model weights not included due to licensing.
+
+---
+
+## Contact
+
+Feel free to reach out or connect:
+
+- [LinkedIn – Crystal Ford](https://www.linkedin.com/in/crystalmford)
+- [GitHub – crystalmford](https://github.com/crystalmford)
+
 
 ---
 
