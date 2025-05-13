@@ -1,27 +1,23 @@
-# Plant Seedling CNN Classifier – WGU D604
+# Plant Seedling CNN Classifier
 
-This project builds a convolutional neural network (CNN) model to classify seedling images into 12 plant species.
+This project builds a convolutional neural network (CNN) model to classify plant seedling images into 12 species.
 
-**Note:** The original dataset from WGU/Udacity cannot be redistributed. This version of the notebook uses mock data for demonstration purposes.
+> **Note:** The original dataset cannot be redistributed. This version uses mock data for demonstration purposes.
 
 ## Project Overview
-- Image input size: 128×128 RGB
-- 12 plant species
-- Convolutional model built in TensorFlow/Keras
-- Augmentation, normalization, and one-hot label encoding
-- Evaluation includes accuracy, confusion matrix, and F1-score
+- Input: 128×128 RGB images
+- Output: 12 plant species categories
+- Model: CNN built using TensorFlow/Keras
+- Techniques: Data normalization, augmentation, label encoding
+- Evaluation: Accuracy, confusion matrix, classification report
 
-## How to Run
-Replace the mock data loading section with your own `.npy` image array and `.csv` labels to retrain this model.
+## How to Use
+Replace the mock data loading section with your own `.npy` image array and `.csv` label file. The rest of the notebook supports a full training and evaluation pipeline.
 
 ## Key Learnings
-- Applied CNNs for image classification
-- Balanced model simplicity and performance
-- Highlighted issues like class imbalance and overfitting
-
-
----
+- Applied deep learning for image classification
+- Designed and trained a CNN with dropout and softmax output
+- Handled class imbalance and evaluated model performance with precision/recall metrics
 
 ## Contact
-
-If you’re hiring or would like to collaborate, please connect with me on [LinkedIn](https://www.linkedin.com/in/crystal-m-ford/).
+If you're hiring or would like to collaborate, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/crystalmford).
