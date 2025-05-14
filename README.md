@@ -14,9 +14,10 @@ I'm a mission-driven data scientist in training with a background in education a
 
 | **Data Science Projects** | **Description** |
 |---------------------------|-----------------|
+| [Image Generation with GANs](https://github.com/crystalmford/WGU_MSDA_projects/tree/image-generation-gan) | Built a DCGAN to generate realistic 64x64 face images from noise vectors using CelebA dataset. |
 | [Image Captioning with CNN-RNN](https://github.com/crystalmford/WGU_MSDA_projects/tree/image-captioning-cnn-rnn) | Generated descriptive image captions using a pretrained CNN encoder and custom RNN decoder. |
-| [Landmark Classification](https://github.com/crystalmford/WGU_MSDA_projects/tree/cnn-project) | Image classification using CNNs and transfer learning (ResNet18) to identify 50 landmark locations. |
 | [Plant Seedling Classifier (CNN)](https://github.com/crystalmford/WGU_MSDA_projects/tree/plant-seedling-cnn-classifier) | Trained a CNN to classify 12 species of plant seedlings from RGB images with transfer learning. |
+| [Landmark Classification](https://github.com/crystalmford/WGU_MSDA_projects/tree/cnn-project) | Image classification using CNNs and transfer learning (ResNet18) to identify 50 landmark locations. |
 | [Customer Churn ML Model](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-churn-ml-model) | Built a Random Forest model to predict customer churn, with full pipeline from preprocessing to evaluation. |
 | [Flight Delay Prediction API](https://github.com/crystalmford/WGU_MSDA_projects/tree/flight-delay-prediction-api) | Trained and deployed a regression model using FastAPI to predict airline arrival delays. |
 | [Model Experiment Tracking](https://github.com/crystalmford/WGU_MSDA_projects/tree/model-experiment-tracking) | Tracked ML experiment results using MLflow to optimize model performance and reproducibility. |
