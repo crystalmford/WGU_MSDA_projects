@@ -1,36 +1,70 @@
-# Data Science Portfolio – Crystal Ford
+Image Generation with GANs
+This project trains a Deep Convolutional GAN (DCGAN) to generate 64x64 pixel face images using a cropped version of the CelebA dataset. It was completed as part of the Udacity Deep Learning Nanodegree and demonstrates my ability to:
 
-This repository showcases select projects from my Master of Science in Data Analytics (MSDA) at Western Governors University, with a specialization in Data Science. Each project is version-controlled in its own Git branch for clarity and reproducibility.
+Build and train adversarial neural networks (GANs)
 
----
+Customize data pipelines with PyTorch
 
-## About Me
+Track model performance over time
 
-I'm a mission-driven data scientist in training with a background in education and nonprofit leadership. I’m passionate about using data to drive meaningful impact, especially in support of underserved communities. My focus areas include machine learning, predictive analytics, and real-world data storytelling.
+Evaluate image generation quality and model limitations
 
----
+Project Structure
+image_generation_gan/
+├── image_generation_gan.ipynb → Main notebook with training code and outputs
+├── tests.py → Unit tests for generator, discriminator, and dataset
+├── processed-celeba-small.zip → Optional: zipped data subset (CelebA 64x64)
+├── processed_celeba_small/ → Required: unzipped dataset directory
+├── generated_faces/ → Outputs: sample face grids saved each epoch
+├── requirements.txt → Python package dependencies
+├── assets/ → (Optional) Screenshots or saved visualizations
+├── __MACOSX/ → Ignore (Mac unzip artifact)
 
-## Projects
+How to Run This Project
+Install dependencies
 
-| **Data Science Projects** | **Description** |
-|---------------------------|-----------------|
-| [Landmark Classification](https://github.com/crystalmford/WGU_MSDA_projects/tree/cnn-project) | Image classification using CNNs and transfer learning (ResNet18) to identify 50 landmark locations. |
-| [Customer Churn ML Model](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-churn-ml-model) | Built a Random Forest model to predict customer churn, with full pipeline from preprocessing to evaluation. |
-| [Flight Delay Prediction API](https://github.com/crystalmford/WGU_MSDA_projects/tree/flight-delay-prediction-api) | Trained and deployed a regression model using FastAPI to predict airline arrival delays. |
-| [Model Experiment Tracking](https://github.com/crystalmford/WGU_MSDA_projects/tree/model-experiment-tracking) | Tracked ML experiment results using MLflow to optimize model performance and reproducibility. |
-| [Customer Segmentation (K-Means)](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-segmentation-kmeans) | Performed clustering on customer behavior data to reveal distinct audience segments. |
-| [Customer Revenue Forecasting](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-revenue-forecasting) | Used ARIMA and time series analysis to forecast monthly revenue. |
-| [Predictive Modeling Projects](https://github.com/crystalmford/WGU_MSDA_projects/tree/predictive-modeling-projects) | A collection of smaller predictive models built for various business scenarios. |
+Run this command in your terminal:
 
-| **Data Analysis Projects** | **Description** |
-|----------------------------|-----------------|
-| [Monthly Charge Data Cleaning](https://github.com/crystalmford/WGU_MSDA_projects/tree/monthly-charge-data-cleaning) | Cleaned and explored billing data for use in churn and segmentation models. |
-| [Monthly Charge vs Churn](https://github.com/crystalmford/WGU_MSDA_projects/tree/monthly-charge-vs-churn) | Statistical analysis of pricing’s impact on customer churn. |
-| [Customer Tenure SQL Dashboard](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-tenure-sql-dashboard) | Wrote complex SQL queries to analyze tenure patterns and visualize them with Power BI. |
-| [Customer Churn Dashboard](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-churn-dashboard) | Built an interactive Tableau dashboard to communicate churn trends and KPIs. |
+pip install -r requirements.txt
 
----
+Prepare the data
 
-## Contact
+Unzip processed-celeba-small.zip if needed, and ensure the image data is located at:
+processed_celeba_small/celeba/
 
-If you’re hiring or would like to collaborate, please connect with me on [LinkedIn](https://www.linkedin.com/in/crystal-m-ford/).
+Run the notebook
+
+Open image_generation_gan.ipynb and run all cells in order. Sample images are saved to the generated_faces/ folder after each epoch.
+
+Example Output
+The model generates 4x4 image grids of fake celebrity faces from random noise vectors using a trained generator.
+
+Check the generated_faces/ folder for images like:
+
+epoch_01.png
+
+epoch_10.png
+
+epoch_35.png
+
+These help visualize the GAN's progress over training.
+
+Loss Curve
+At the end of training, loss curves are plotted for both the generator and discriminator to help evaluate training stability.
+
+Model Limitations
+The CelebA dataset is biased toward young white celebrity faces. The model may not generalize well to diverse populations. Generated samples may also appear blurry or lack high-frequency detail.
+
+Future Improvements
+Train for more epochs
+
+Use a deeper generator architecture
+
+Try a different loss function (e.g., WGAN-GP)
+
+Train on a more diverse dataset
+
+Author
+Crystal Ford
+WGU MSDA | Deep Learning Student
+GitHub Profile
