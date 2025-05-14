@@ -1,70 +1,40 @@
-Image Generation with GANs
-This project trains a Deep Convolutional GAN (DCGAN) to generate 64x64 pixel face images using a cropped version of the CelebA dataset. It was completed as part of the Udacity Deep Learning Nanodegree and demonstrates my ability to:
+# Image Generation with GANs
 
-Build and train adversarial neural networks (GANs)
+This project trains a Deep Convolutional GAN (DCGAN) to generate 64x64 face images using a cropped version of the CelebA dataset.
 
-Customize data pipelines with PyTorch
+## Highlights
 
-Track model performance over time
+- PyTorch implementation of Generator and Discriminator
+- Trains adversarially on CelebA dataset
+- Saves generated samples after each epoch
+- Loss curves for model evaluation
 
-Evaluate image generation quality and model limitations
+## Sample Output
 
-Project Structure
-image_generation_gan/
-├── image_generation_gan.ipynb → Main notebook with training code and outputs
-├── tests.py → Unit tests for generator, discriminator, and dataset
-├── processed-celeba-small.zip → Optional: zipped data subset (CelebA 64x64)
-├── processed_celeba_small/ → Required: unzipped dataset directory
-├── generated_faces/ → Outputs: sample face grids saved each epoch
-├── requirements.txt → Python package dependencies
-├── assets/ → (Optional) Screenshots or saved visualizations
-├── __MACOSX/ → Ignore (Mac unzip artifact)
+![Generated Faces](epoch_35.png)
 
-How to Run This Project
-Install dependencies
+## How to Use
 
-Run this command in your terminal:
+1. Clone this repo  
+2. Install dependencies:  
+   `pip install -r requirements.txt`
+3. Add data:  
+   - Unzip `processed-celeba-small.zip` if you have it  
+   - Place contents in `processed_celeba_small/celeba/`
+4. Run `image_generation_gan.ipynb` in Jupyter or Colab
 
-pip install -r requirements.txt
+## Repo Files
 
-Prepare the data
+- `image_generation_gan.ipynb`: Main training + visualization code  
+- `requirements.txt`: Package dependencies  
+- `tests.py`: Unit tests for model and data loading  
+- `epoch_35.png`: Output sample from trained generator  
+- `README.md`: You are here  
 
-Unzip processed-celeba-small.zip if needed, and ensure the image data is located at:
-processed_celeba_small/celeba/
+## Credits
 
-Run the notebook
+Created by Crystal Ford  
+M.S. Data Analytics – Western Governors University  
 
-Open image_generation_gan.ipynb and run all cells in order. Sample images are saved to the generated_faces/ folder after each epoch.
-
-Example Output
-The model generates 4x4 image grids of fake celebrity faces from random noise vectors using a trained generator.
-
-Check the generated_faces/ folder for images like:
-
-epoch_01.png
-
-epoch_10.png
-
-epoch_35.png
-
-These help visualize the GAN's progress over training.
-
-Loss Curve
-At the end of training, loss curves are plotted for both the generator and discriminator to help evaluate training stability.
-
-Model Limitations
-The CelebA dataset is biased toward young white celebrity faces. The model may not generalize well to diverse populations. Generated samples may also appear blurry or lack high-frequency detail.
-
-Future Improvements
-Train for more epochs
-
-Use a deeper generator architecture
-
-Try a different loss function (e.g., WGAN-GP)
-
-Train on a more diverse dataset
-
-Author
-Crystal Ford
-WGU MSDA | Deep Learning Student
-GitHub Profile
+- GitHub: [github.com/crystalmford](https://github.com/crystalmford)  
+- LinkedIn: [linkedin.com/in/crystalmford](https://www.linkedin.com/in/crystalmford)
