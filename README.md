@@ -14,13 +14,16 @@ I'm a mission-driven data scientist in training with a background in education a
 
 | **Data Science Projects** | **Description** |
 |---------------------------|-----------------|
+| [Image Captioning with CNN-RNN](https://github.com/crystalmford/WGU_MSDA_projects/tree/image-captioning-cnn-rnn) | Generated descriptive image captions using a pretrained CNN encoder and custom RNN decoder. |
 | [Landmark Classification](https://github.com/crystalmford/WGU_MSDA_projects/tree/cnn-project) | Image classification using CNNs and transfer learning (ResNet18) to identify 50 landmark locations. |
+| [Plant Seedling Classifier (CNN)](https://github.com/crystalmford/WGU_MSDA_projects/tree/plant-seedling-cnn-classifier) | Trained a CNN to classify 12 species of plant seedlings from RGB images with transfer learning. |
 | [Customer Churn ML Model](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-churn-ml-model) | Built a Random Forest model to predict customer churn, with full pipeline from preprocessing to evaluation. |
 | [Flight Delay Prediction API](https://github.com/crystalmford/WGU_MSDA_projects/tree/flight-delay-prediction-api) | Trained and deployed a regression model using FastAPI to predict airline arrival delays. |
 | [Model Experiment Tracking](https://github.com/crystalmford/WGU_MSDA_projects/tree/model-experiment-tracking) | Tracked ML experiment results using MLflow to optimize model performance and reproducibility. |
 | [Customer Segmentation (K-Means)](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-segmentation-kmeans) | Performed clustering on customer behavior data to reveal distinct audience segments. |
 | [Customer Revenue Forecasting](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-revenue-forecasting) | Used ARIMA and time series analysis to forecast monthly revenue. |
 | [Predictive Modeling Projects](https://github.com/crystalmford/WGU_MSDA_projects/tree/predictive-modeling-projects) | A collection of smaller predictive models built for various business scenarios. |
+
 
 | **Data Analysis Projects** | **Description** |
 |----------------------------|-----------------|
