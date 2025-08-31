@@ -1,4 +1,5 @@
 # Customer Tenure & Churn SQL Dashboard 
+**TL;DR:** Executive-ready Tableau story + SQL analysis for retention insights (tenure & churn) with interactive filters and KPIs.
 
 ## Overview
 This project presents a Tableau **dashboard suite and story** analyzing **customer tenure and churn** across demographic and service-based segments. The goal is to provide executive stakeholders with clear, actionable insights into which customers stay longer, and how to better retain those who are likely to leave.
