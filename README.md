@@ -30,8 +30,8 @@ I'm a mission-driven data scientist in training with a background in education a
 |----------------------------|-----------------|
 | [Monthly Charge Data Cleaning](https://github.com/crystalmford/WGU_MSDA_projects/tree/monthly-charge-data-cleaning) | Cleaned and explored billing data for use in churn and segmentation models. |
 | [Monthly Charge vs Churn](https://github.com/crystalmford/WGU_MSDA_projects/tree/monthly-charge-vs-churn) | Statistical analysis of pricing’s impact on customer churn. |
-| [Customer Tenure SQL Dashboard](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-tenure-sql-dashboard) | Wrote complex SQL queries to analyze tenure patterns and visualize them with Power BI. |
-| [Customer Churn Dashboard](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-churn-dashboard) | Built an interactive Tableau dashboard to communicate churn trends and KPIs. |
+| [Customer Tenure SQL Dashboard](https://github.com/crystalmford/WGU_MSDA_projects/tree/customer-tenure-sql-dashboard) | Wrote complex SQL queries to analyze tenure patterns and visualize them with Tableau. |
+
 
 ---
 
