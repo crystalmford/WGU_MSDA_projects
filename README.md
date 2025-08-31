@@ -1,4 +1,5 @@
 # Customer Tenure & Churn SQL Dashboard 
+
 ## Overview
 This project presents a Tableau **dashboard suite and story** analyzing **customer tenure and churn** across demographic and service-based segments. The goal is to provide executive stakeholders with clear, actionable insights into which customers stay longer, and how to better retain those who are likely to leave.
 
@@ -45,7 +46,7 @@ This dashboard was designed for a **non-technical executive audience** to help i
 ---
 
 ## How to View
-- 📊 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/yourusername/viz/customer_tenure_sql_dashboard/Story1)**  
+- 📊 **[View Interactive Dashboard on Tableau Public](https://public.tableau.com/app/profile/crystal.ford/viz/d210_COMPLETE/Story1)**  
   *(Recommended: interactive version — no Tableau Desktop required)*  
 
 - 💻 **Download the Tableau workbook:**  
@@ -58,16 +59,16 @@ This dashboard was designed for a **non-technical executive audience** to help i
 
 ## Dashboard Preview
 
-**Average Tenure by State, Income, Gender/Age, and Gender/Race**
+**Average Tenure by State, Income, Gender/Age, and Gender/Race**  
 ![Average Tenure Dashboard](avg_tenure_dashboard.png)
 
-**KPI: Average Monthly Charges with Incomes and Contract Lengths**
+**KPI: Average Monthly Charges with Incomes and Contract Lengths**  
 ![Average Monthly Charges Dashboard](kpi_avg_monthly_charges_dashboard.png)
 
-**KPI: Churn Rate by Race and Age in Decades**
+**KPI: Churn Rate by Race and Age in Decades**  
 ![Churn Rate Dashboard](kpi_churn_rate_dashboard.png)
 
-**Visualization with Interactive Controls**
+**Visualization with Interactive Controls**  
 ![Interactive Dashboard](vis_interactive_dashboard.png)
 
 ---
@@ -76,3 +77,4 @@ This dashboard was designed for a **non-technical executive audience** to help i
 - Customers with **more subscribed services** = **longer tenure**  
 - **Older customers churn more** — potential causes include financial strain or lack of service fit  
 - Dashboards allow filtering by multiple factors to support **targeted marketing and retention strategies**  
+
