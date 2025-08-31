@@ -1,5 +1,4 @@
-# Customer Tenure & Churn SQL Dashboard (WGU D210 Project)
-
+# Customer Tenure & Churn SQL Dashboard 
 ## Overview
 This project presents a Tableau **dashboard suite and story** analyzing **customer tenure and churn** across demographic and service-based segments. The goal is to provide executive stakeholders with clear, actionable insights into which customers stay longer, and how to better retain those who are likely to leave.
 
@@ -58,13 +57,18 @@ This dashboard was designed for a **non-technical executive audience** to help i
 ---
 
 ## Dashboard Preview
-*(screenshots from the PDF for instant viewing)*
 
-**Customer Tenure Overview**  
-![Tenure Dashboard](customer_tenure_dashboard_preview.png)
+**Average Tenure by State, Income, Gender/Age, and Gender/Race**
+![Average Tenure Dashboard](avg_tenure_dashboard.png)
 
-**Churn Patterns**  
-![Churn Dashboard](customer_churn_dashboard_preview.png)
+**KPI: Average Monthly Charges with Incomes and Contract Lengths**
+![Average Monthly Charges Dashboard](kpi_avg_monthly_charges_dashboard.png)
+
+**KPI: Churn Rate by Race and Age in Decades**
+![Churn Rate Dashboard](kpi_churn_rate_dashboard.png)
+
+**Visualization with Interactive Controls**
+![Interactive Dashboard](vis_interactive_dashboard.png)
 
 ---
 
